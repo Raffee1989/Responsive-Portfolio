@@ -1,5 +1,5 @@
 body {
-background-color: darkgray;
+  background-image: url(./Images/Background\ image.png);
 }
 
 header {
@@ -15,13 +15,23 @@ main {
   padding: 100px;
   padding-top: 50px;
 }
+
 img {
   margin-right: 35px;
+  border: 1px solid white;
+}
+
+article div {
+margin-bottom: 30px;
+}
+div h2 {
+  margin: none;
 }
 
 footer {
   text-align: center;
   color: white;
+  clear: both;
 
 }
 
