@@ -1,16 +1,23 @@
-/* html{
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html{
   height: 100%;
-} */
+}
 
 body {
   background-image: url(./Images/Background\ image.png);
-  /* min-height: 100%;
+  min-height: 100%;
   display: flex;
-  flex-direction: column; */
+  flex-direction: column;
+  font-family: var(--bs-font-sans-serif);
+  color: white;
 }
 
 header {
- margin-bottom: 100px;
+ margin-bottom: 50px;
 }
 
 
@@ -18,32 +25,50 @@ main {
   margin-left: 200px;
   margin-right: 200px;
   padding: 40px;
-  background-color: whit;
+  background-color: rgb(34, 32, 32);
 }
 
-h1,h2,h3,p {
-  font-family: var(--bs-font-sans-serif);
+#contact {
+    margin-left: 200px;
+    margin-right: 600px;
+    padding: 40px;
+    background-color: rgb(34, 32, 32);
 }
 
+#portfolio {
+  margin-left: 50px;
+  margin-right: 400px;
+  padding: 40px;
+  background-color: rgb(34, 32, 32);
+}
 
 img {
   margin-right: 35px;
-  border: 1px solid white;
+  border: 1px solid rgb(238, 87, 87);
 }
 
-.col-md-6 {
+.col-md-10 {
 margin-bottom: 35px;
 }
 
-.col-12 {
+.col-10 {
   margin-bottom: 30px;
 }
 
 
 footer {
   text-align: center;
-  clear: both;
   margin-top: 100px;
   color: white;
 }
 
+@media (min-width: 400px) { 
+  body header main footer {
+    margin: none;
+    padding: none;
+  }
+}
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 900px) { ... }
