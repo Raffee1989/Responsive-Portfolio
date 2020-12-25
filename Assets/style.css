@@ -10,50 +10,40 @@ body {
 }
 
 header {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
+ margin-bottom: 100px;
 }
+
 
 main {
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 100px;
-  padding-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 40px;
+  background-color: whit;
 }
 
-#portfolio {
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 100px;
-  padding-top: 50px;
-}
-
-h1 h2 h3 p {
+h1,h2,h3,p {
   font-family: var(--bs-font-sans-serif);
 }
 
-main div button {
-  margin-top: 10px;
-}
+
 img {
   margin-right: 35px;
   border: 1px solid white;
 }
 
-article div {
-margin-bottom: 30px;
+.col-md-6 {
+margin-bottom: 35px;
 }
-div h2 {
-  margin: none;
+
+.col-12 {
+  margin-bottom: 30px;
 }
+
 
 footer {
   text-align: center;
-  color: white;
   clear: both;
-  border-top: 4px darkblue solid;
-  margin-top: auto;
+  margin-top: 100px;
+  color: white;
 }
 
