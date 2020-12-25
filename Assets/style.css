@@ -9,7 +9,9 @@ html{
 
 body {
   background-image: url(./Images/Background\ image.png);
-  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100%; */
   display: flex;
   flex-direction: column;
   font-family: var(--bs-font-sans-serif);
@@ -38,6 +40,7 @@ main {
 #portfolio {
   margin-left: 50px;
   margin-right: 400px;
+  margin-bottom: 100px;
   padding: 40px;
   background-color: rgb(34, 32, 32);
 }
@@ -58,7 +61,11 @@ margin-bottom: 35px;
 
 footer {
   text-align: center;
-  margin-top: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
   color: white;
 }
 
