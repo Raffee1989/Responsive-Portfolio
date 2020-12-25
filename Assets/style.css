@@ -1,5 +1,12 @@
+html{
+  height: 100%;
+}
+
 body {
   background-image: url(./Images/Background\ image.png);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -10,6 +17,13 @@ header {
 }
 
 main {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 100px;
+  padding-top: 50px;
+}
+
+#portfolio {
   margin-left: 100px;
   margin-right: 100px;
   padding: 100px;
@@ -39,6 +53,7 @@ footer {
   text-align: center;
   color: white;
   clear: both;
-  ;
+  border-top: 4px darkblue solid;
+  margin-top: auto;
 }
 
