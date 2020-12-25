@@ -1,0 +1,27 @@
+body {
+background-color: darkgray;
+}
+
+header {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 100px;
+  padding-top: 50px;
+}
+img {
+  margin-right: 35px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+
+}
+
