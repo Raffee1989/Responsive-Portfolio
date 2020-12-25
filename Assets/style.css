@@ -16,6 +16,13 @@ main {
   padding-top: 50px;
 }
 
+h1 h2 h3 p {
+  font-family: var(--bs-font-sans-serif);
+}
+
+main div button {
+  margin-top: 10px;
+}
 img {
   margin-right: 35px;
   border: 1px solid white;
@@ -32,6 +39,6 @@ footer {
   text-align: center;
   color: white;
   clear: both;
-
+  ;
 }
 
