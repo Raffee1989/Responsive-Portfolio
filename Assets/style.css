@@ -1,8 +1,10 @@
+/* Whole HTML Page */
 html{
   height: 100%;
   width: 100%;
 }
 
+/* Body Setting*/
 body {
   background-image: url(./Images/Background\ image.png);
   font-family: var(--bs-font-sans-serif);
@@ -12,17 +14,21 @@ body {
   flex-direction: column;
 }
 
+/* Header Setting */
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
 }
 
+/* Main Container Setting */
 .container-sm {
   background-color: bisque;
   padding: 10px;
-  margin: 25px 25px 25px 25px;
+  margin: 25px 25px;
 }
+
+/* Index HTML File - My Photo Setting */
 .index img {
   width: 340px;
   height: 340px;
@@ -30,36 +36,22 @@ body {
   margin-right: 10px;
 }
 
-.portfolio {
-  margin-left: 25px;
-  margin-bottom: 25px;
-}
-
-#subject {
-  margin: 30px 0 0 10px;
-}
-/* article {
-  width: 355px;
-  padding: 5px;
-} */
-
-.contact {
-  margin-top: 25px;
-}
-
-
-footer {
+/* Footer */
+.footer {
   text-align: center;
   width: 100%;
   color: white;
   margin-top: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
+/* Screen Size of 576px Setting */
 @media screen and (max-width: 576px)
 {
   .container-sm{
     max-width: 540px;
-    margin: 25px 0 25px 0;
+    margin: 0;
   }
   .index img {
     width: 50%;
@@ -68,15 +60,16 @@ footer {
 
 }
 
+/* Screen Size of 769px Setting */
 @media screen and (min-width: 769px)
 {
   .container-sm  {
     max-width: 720px;
-    /* margin: 25px 10px 25px 10px; */
   }
 }
 
-@media screen and (min-width: 993px)
+/* Screen Size of 992px Setting */
+@media screen and (min-width: 992px)
 {
   .container-sm  {
     max-width: 960px;
