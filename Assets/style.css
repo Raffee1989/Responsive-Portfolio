@@ -23,7 +23,7 @@ body {
 
 /* Main Container Setting */
 .container-sm {
-  background-color: bisque;
+  background-color: rgb(233, 219, 199);
   padding: 10px;
   margin: 25px 25px;
 }
@@ -42,8 +42,8 @@ body {
   width: 100%;
   color: white;
   margin-top: auto;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Screen Size of 576px Setting */
