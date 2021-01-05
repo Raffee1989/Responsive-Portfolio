@@ -18,38 +18,34 @@ header {
   width: 100%;
 }
 
-.index {
+.container-sm {
   background-color: bisque;
   padding: 10px;
-  margin: 25px 300px 25px 15px;
+  margin: 25px 25px 25px 25px;
 }
 .index img {
-  width: 375px;
-  height: 375px;
+  width: 350px;
+  height: 350px;
   float: left;
   margin-right: 10px;
 }
 
-/* .container {
-  margin: 50px;
-  background-color: gray;
-  padding: 25px;
+.portfolio {
+  margin-left: 25px;
+  margin-bottom: 25px;
 }
 
-.article{
-  margin: 15px;
+#subject {
+  margin: 30px 0 0 10px;
 }
-img {
-  max-width: 375px;
-  min-width: 170px;
-  max-height: 375px;
-  margin-right: 10px;
-  float: left;
+article {
+  width: 355px;
+  padding: 5px;
 }
 
-.card {
-  background-color: bisque;
-} */
+.contact {
+  margin-top: 25px;
+}
 
 
 footer {
@@ -59,47 +55,33 @@ footer {
   margin-top: auto;
 }
 
-@media screen and (max-width: 430px)
+@media screen and (max-width: 576px)
 {
-  /* Index */
-  .index  {
-    margin: 25px 15px 25px 15px;
+  .container-sm{
+    max-width: 540px;
+    margin: 25px 0 25px 0;
   }
-  /* Index Image */
-  .index img {
+  /* .index img {
     width: 175px;
     height: 175px;
-  }
-  .article {
-    width: 100%;
-  }
-  .card-body {
-    width: 100%;
-  }
+  } */
+
 }
 
 @media screen and (min-width: 768px)
 {
-.index img {
-width: 275px;
-height: 275px;
-}
+  .container-sm  {
+    max-width: 720px;
+    margin: 25px 10px 25px 10px;
+  }
 }
 
-@media screen and (min-width: 900px)
+@media screen and (min-width: 992px)
 {
+  .container-sm  {
+    max-width: 960px;
+    margin: 25px 10px 25px 10px;
+  }
 
-  .index img {
-    width: 375px;
-    height: 375px;
-  }
-  .g-3 {
-    max-width: 100%;
-   
-  }
-  .card {
-    background-color: bisque;
-    margin-right: 100px;
-  }
+
 }
-
