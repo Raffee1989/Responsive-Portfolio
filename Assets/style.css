@@ -44,12 +44,13 @@ body {
   color: white;
   margin-top: auto;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 /* Screen Size of 576px Setting */
 @media screen and (max-width: 576px)
 {
+
   .container-sm{
     max-width: 540px;
     margin: 0;
@@ -58,7 +59,6 @@ body {
     width: 50%;
     height: 50%;
   }
-
 }
 
 /* Screen Size of 769px Setting */
@@ -67,6 +67,7 @@ body {
   .container-sm  {
     max-width: 720px;
   }
+  
 }
 
 /* Screen Size of 992px Setting */
