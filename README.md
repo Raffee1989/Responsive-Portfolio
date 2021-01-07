@@ -28,7 +28,7 @@ This homework was intended to test my overall HTML, CSS and Bootstrap knowledge.
 ## Additional Work
 * Created one CSS file and added some settings for each element.
 * Used [MayerWeb](https://meyerweb.com/eric/tools/css/reset/) to reset all default CSS settings.
-* Used [Stackoverflow](https://stackoverflow.com/questions/8866061/css-background-image-using-an-image) for the background.
+*  [Coolors](https://coolors.co/) made it a lot easier to pick my favorite color schemes.
 * Used [Fontawsome](https://fontawesome.com/icons/linkedin?style=brands) to add a Linkedin icon.
 * Commented every element in each file.
  
