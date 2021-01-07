@@ -38,8 +38,6 @@ This homework was intended to test my overal HTML, CSS and Bootstrap knowelege. 
 Below are the screenshots of my work. 
 
 ![Index](Assets/Images/Index.png)
-![Contact](Assets/Images/Contact.png)
-![Portfolio](Assets/Images/Portfolio2.png)
 
 ---
 
