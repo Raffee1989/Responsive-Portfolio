@@ -1,9 +1,11 @@
 
 /* Body Setting*/
 body {
-  background-image: url(./Images/Background\ image.png);
+  /* background-image: url(./Images/Background\ image.png); */
+  background-color: #FCBF49;
   font-family: var(--bs-font-sans-serif);
   color: rgb(7, 7, 7);
+  text-align: justify
 }
 
 /* Header Setting */
@@ -11,17 +13,22 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
+  background-color: #003049;
+  border-bottom: 4px solid #E5E5E5;
 }
+.navbar-toggler {
+  background-color:#0d6efd;
+}
+
 
 /* Main Container Setting */
 .container {
-  background-color: rgba(156, 156, 214, 0.342);
   padding: 10px;
-  margin: 25px 25px  ;
-  border: black solid 1px;
+  margin: 25px;
+  margin-bottom: 5%;
 }
 
-/* Index HTML File - My Photo Setting */
+/* About Me Page - My Photo Setting */
 .img-thumbnail {
   max-width: 340px;
   max-height: 340px;
@@ -29,25 +36,44 @@ body {
   margin-right: 10px;
 }
 
+/* Portfolio Page - Card Background Color */
+.card {
+  background-color: #F77F00;
+}
+
+/* Portfolio Page - Card Title Centered */
+.card-title {
+  text-align: center;
+}
+
+/* Portfolio Page - Card Text */
+.card-text {
+  background-color: #ccbcbc;
+  padding: 1px;
+  border-radius: 10px ;
+  text-align: center;
+}
+
 /* Footer */
 .footer {
   text-align: center;
   width: 100%;
   color: white;
-  margin-top: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   position: fixed;
-
   bottom: 0px;
+  background-color: #003049;
+  border-top: 4px solid #E5E5E5;
+
 }
 
 /* Screen Size of 576px Setting */
 @media screen and (max-width: 576px)
 {
   .container{
-    max-width: 100%;
+    max-width: 450px;
     margin: 0;
+    margin-bottom: 20%;
+    margin-top: 5%;
   }
   .index img {
     width: 50%;
@@ -61,10 +87,7 @@ body {
   .container  {
     max-width: 720px;
   }
-  .index img {
-    width: 50%;
-    height: 50%;
-  }
+
   
 }
 
