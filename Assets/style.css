@@ -1,17 +1,9 @@
-/* Whole HTML Page */
-html{
-  height: 100%;
-  width: 100%;
-}
 
 /* Body Setting*/
 body {
   background-image: url(./Images/Background\ image.png);
   font-family: var(--bs-font-sans-serif);
   color: rgb(7, 7, 7);
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Header Setting */
@@ -22,17 +14,17 @@ body {
 }
 
 /* Main Container Setting */
-.container-sm {
+.container {
   background-color: rgba(156, 156, 214, 0.342);
   padding: 10px;
-  margin: 25px 25px;
+  margin: 25px 25px  ;
   border: black solid 1px;
 }
 
 /* Index HTML File - My Photo Setting */
 .img-thumbnail {
-  width: 340px;
-  height: 340px;
+  max-width: 340px;
+  max-height: 340px;
   float: left;
   margin-right: 10px;
 }
@@ -42,17 +34,19 @@ body {
   text-align: center;
   width: 100%;
   color: white;
-  margin-top: auto;
-  padding-top: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
+  position: fixed;
+
+  bottom: 0px;
 }
 
 /* Screen Size of 576px Setting */
 @media screen and (max-width: 576px)
 {
-
-  .container-sm{
-    max-width: 540px;
+  .container{
+    max-width: 100%;
     margin: 0;
   }
   .index img {
@@ -62,10 +56,14 @@ body {
 }
 
 /* Screen Size of 769px Setting */
-@media screen and (min-width: 769px)
+@media screen and (min-width: 768px)
 {
-  .container-sm  {
+  .container  {
     max-width: 720px;
+  }
+  .index img {
+    width: 50%;
+    height: 50%;
   }
   
 }
@@ -73,9 +71,8 @@ body {
 /* Screen Size of 992px Setting */
 @media screen and (min-width: 992px)
 {
-  .container-sm  {
+  .container  {
     max-width: 960px;
   }
-
 
 }
