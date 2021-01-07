@@ -16,6 +16,8 @@ body {
   background-color: #003049;
   border-bottom: 4px solid #E5E5E5;
 }
+
+/* Hamburger Menu Color */
 .navbar-toggler {
   background-color:#0d6efd;
 }
@@ -39,6 +41,7 @@ body {
 /* Portfolio Page - Card Background Color */
 .card {
   background-color: #F77F00;
+  border: solid 2px white;
 }
 
 /* Portfolio Page - Card Title Centered */
