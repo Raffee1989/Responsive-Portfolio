@@ -1,13 +1,11 @@
 
 /* Body Setting*/
 body {
-  /* background-image: url(./Images/Background\ image.png); */
   background-color: #FCBF49;
   font-family: var(--bs-font-sans-serif);
   color: rgb(7, 7, 7);
   text-align: justify
 }
-
 
 /* Header Setting */
 .header {
@@ -22,7 +20,6 @@ body {
 .navbar-toggler {
   background-color:#0d6efd;
 }
-
 
 /* Main Container Setting */
 .container {
@@ -67,10 +64,9 @@ body {
   bottom: 0px;
   background-color: #003049;
   border-top: 4px solid #E5E5E5;
-
 }
 
-/* Screen Size of 576px Setting */
+/* Viewport of 576px Setting */
 @media screen and (max-width: 576px)
 {
   .container{
@@ -85,21 +81,18 @@ body {
   }
 }
 
-/* Screen Size of 769px Setting */
+/* Viewport of 769px Setting */
 @media screen and (min-width: 768px)
 {
   .container  {
     max-width: 720px;
   }
-
-  
 }
 
-/* Screen Size of 992px Setting */
+/* Viewport of 992px Setting */
 @media screen and (min-width: 992px)
 {
   .container  {
     max-width: 960px;
   }
-
 }
