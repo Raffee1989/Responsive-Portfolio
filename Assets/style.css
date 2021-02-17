@@ -35,11 +35,16 @@ body {
   float: left;
   margin-right: 10px;
 }
-
+.card-img-top{
+  max-width: 350px;
+  max-height: 350px;
+}
 /* Portfolio Page - Card Background Color */
 .card {
   background-color: #F77F00;
   border: solid 2px white;
+  max-height: max-content;
+  max-width: max-content;
 }
 
 /* Portfolio Page - Card Title Centered */
