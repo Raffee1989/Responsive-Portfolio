@@ -39,6 +39,10 @@ body {
   max-width: 350px;
   max-height: 350px;
 }
+
+.contact{
+  text-align:none;
+}
 /* Portfolio Page - Card Background Color */
 .card {
   background-color: #F77F00;
@@ -69,6 +73,10 @@ body {
   bottom: 0px;
   background-color: #003049;
   border-top: 4px solid #E5E5E5;
+}
+
+.g-3{
+  padding-top: 10px;
 }
 
 /* Viewport of 576px Setting */
